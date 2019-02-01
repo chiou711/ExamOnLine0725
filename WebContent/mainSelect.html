@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="jquery-1.2.1.pack.js"></script>
+<script>
+$(document).ready(function(){
+	$("a").click(function(){
+		   $("a.activeSel").removeClass("activeSel");
+		   $(this).addClass("activeSel");
+		});
+});	
+</script>
+<style>
+a:link,a:visited {color:#EAFFEA; text-decoration:none; font-size:30px;}    /* unvisited link */
+a:hover,a:active {color:#cccccc;text-decoration:underline;}   /* mouse over link */
+body {background-color:#142b2b;}
+p.pos_fixed {position: fixed;	top: 1px;	right: 10px;}
+.activeSel {color:white;font-size:30px;font-weight:bolder;background-color:#142b2b;}
+</style>
+</head>
+<body>
+<p class="pos_fixed"><font style="font-weight:bold;font-size:38px; color:white;"><b>餐旅服務線上測驗系統</b></font></p>
+<img  alt="" src="reception.jpg" height="60" width="80">
+
+<table border=0 width=72% align=left bgcolor=#697777 >
+
+  <tr align=center>
+    <td><a class="" href="stuApply.html" target=body >
+       考生線上報名</a></td>
+    <td><a class="" href="stuRecord/stuRecDiv.html" target=body>
+    	管理考生資料</a></td>        
+    <td><a class="" href="examDo/examDoFunSel.html" target=body>
+        考生線上測驗</a></td>
+ 	<td><a class="" href="examRecord/examRecDiv.html" target=body>
+    	查詢考生成績</a></td>        
+    <td><a class="" href="qBank/qBankDiv.html" target=body>
+        管理題庫</a></td>
+    <td><a class="" href="qExamPaper/qExPaperDiv.html" target=body>
+         訂定考卷</a></td>
+  </tr>
+
+</table>
+
+</body>
+</html>

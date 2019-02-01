@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>線上測驗</title>
+</head>
+
+<style>body {background-color:#70c0c0;}</style>
+<body>
+	<h1 align=center>填寫考生應考資料</h1>
+	<form action="examDoView.jsp" target="_blank" >
+		<table border=1 width=100% align=center bgcolor=#70c0c0>
+			<tr>
+				<td align=center rowspan=2><font size="3">准考證號碼:</font> <input
+					type="text" name="stuExID" value="A00123"><br> <font
+					size="3">考卷號碼:</font> <input type="text" name="epId" value="0002"><br>
+					<input type="submit" name="stuExEnter" value="開始測驗" "></td>
+			</tr>
+		</table>
+	</form>
+	<table border=1 width=100% align=center bgcolor=#70c0c0>
+		<tr align=right>
+			<td><font size="3">離開測驗:</font> <input type="button" value="離開"
+				onclick="javascript:history.back()"></td>
+		</tr>
+	</table>
+</body>
+</html>
