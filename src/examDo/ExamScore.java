@@ -23,7 +23,7 @@ import examRecordBean.ERecBeanService;
 @WebServlet("/examDo/ExamScore.do")
 public class ExamScore extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
+//test github
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse response)
 			throws ServletException, IOException {

@@ -17,7 +17,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
 
-
+//test GitHub
 //@WebServlet("/stuApply/StuApply.do")
 public class StuApply extends HttpServlet {
 	private static final long serialVersionUID = 1L;
