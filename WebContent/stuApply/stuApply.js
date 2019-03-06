@@ -75,7 +75,7 @@ $(document).ready(function() {
 				        for(var i=1; i<=8; i++)
 				        {  
 				            total += eval(id[i]) * (9 - i);  
-				        }  
+				        }  doAjax
 				        //補上檢查碼(最後一碼)  
 				        total += eval(id[9]);  
 				        

@@ -10,6 +10,8 @@
     <res-auth>Container</res-auth>
     <res-sharing-scope>Shareable</res-sharing-scope>
   </resource-ref>
+  
+<!-- For stuApply.js -->  
   <servlet>
     <description>Get Information about Student</description>
     <display-name>StuApply</display-name>
@@ -20,4 +22,5 @@
     <servlet-name>StuApply</servlet-name>
     <url-pattern>/StudApply</url-pattern>
   </servlet-mapping>
+  
 </web-app>
