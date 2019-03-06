@@ -20,7 +20,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>StuApply</servlet-name>
-    <url-pattern>/StudApply</url-pattern>
+    <url-pattern>/stuApply/StudApply</url-pattern>
   </servlet-mapping>
   
 </web-app>
